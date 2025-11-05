@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — IWB PTY LTD</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo" aria-label="IWB PTY LTD home">IWB PTY LTD</a>
+      </div>
+
+      <input id="nav-toggle-3" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle-3" class="nav-toggle-btn" title="Menu">
+        <span class="hamburger"></span>
+      </label>
+
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact Us</h1>
+    
+    <div class="two-col">
+      <section>
+        <h2>Contact Form</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+             
+            
+            
+            <input type="hidden" name="access_key" value="865f1003-63eb-438f-bc11-012c48a45fb3">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name"  required />
+
+          <label for="email">Email</label>
+          <input type="email"  id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea rows="6" id="message" name="message"  required></textarea>
+
+          <button class="btn primary" type="submit">Submit</button>
+        </form>
+      </section>
+
+      <aside>
+        <h3>Company Info</h3>
+        <address>
+          IWB PTY LTD<br />
+           Box 126 Abia <br />
+          Capital Maseru 100, Lesotho<br />
+          Phone: +266 000 624 819 <br />
+          Email: <a href="tsotetsitite@gmail.com">info@iwb.example</a>
+        </address>
+       
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2023 IWB PTY LTD. All rights reserved. <a href="contact.html">Contact us</a></p>
+    </div>
+  </footer>
+</body>
+</html>
